@@ -1,5 +1,5 @@
 tablaEjemplo = [('H', 0), ('o', 10), ('l', 110), ('a', 1110)]
-textEjemplo = "lola"
+textEjemplo = "Hola"
 textoComprimido = ''
 lista =list(textEjemplo)
 
