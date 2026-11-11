@@ -1,6 +1,5 @@
-tablaEjemplo = [('H', 0), ('o', 10), ('l', 110), ('a', 1110)]
+with open('Archivos de prueba/imagen prueba.webp', 'rb') as file:
+    prueba = file.read()
 
-with open('Archivos de prueba/Archivo comprimido.txt', 'w') as file:
-    file.write(str(tablaEjemplo))
-    
-    
+with open('Archivos de prueba/Archivo comprimido.txt', 'wb') as file:
+    file.write(prueba)
