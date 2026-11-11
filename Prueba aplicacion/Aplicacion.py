@@ -53,7 +53,7 @@ class App(tk.Tk):## creacion de la clase App con tk.Tk como clase padre, de la q
         a = self.ruta1
         b = self.ruta2
         print(f"{a} || {b}")
-        print('llamado en la linea 45')
+        print('llamado en la linea 52')
  
 
 App().mainloop()        

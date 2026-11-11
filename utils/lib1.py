@@ -17,5 +17,5 @@ def crearIndices(tabla):
         for j in range(0, i):
             indice += "1"
         indice += "0"
-        tabla[i]=(tabla[i][0],indice) 
+        tabla[i]=(tabla[i][0],indice)
     return tabla
