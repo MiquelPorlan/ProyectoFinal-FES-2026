@@ -1,6 +1,8 @@
 Fuentes:
-tkinter: https://docs.python.org/es/3/library/tkinter.html#module-tkinter
-	 https://docs.python.org/es/3/library/tk.html
-	 https://www.tcl-lang.org/man/tcl9.0/TkCmd/index.html
-	 https://docs.python.org/es/3.9/library/dialog.html
-	 https://docs.python.org/3/library/tkinter.messagebox.html
+tkinter:https://docs.python.org/es/3/library/tkinter.html#module-tkinter
+	 	https://docs.python.org/es/3/library/tk.html
+		https://www.tcl-lang.org/man/tcl9.0/TkCmd/index.html
+		https://docs.python.org/es/3.9/library/dialog.html
+		https://docs.python.org/3/library/tkinter.messagebox.html
+
+		https://www.geeksforgeeks.org/python/python-tkinter-toplevel-widget/

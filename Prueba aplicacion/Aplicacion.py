@@ -3,6 +3,8 @@ import threading
 import tkinter as tk
 from pathlib import Path
 from tkinter import filedialog, messagebox, ttk
+import Historial as Hist
+
 
 
 class App(tk.Tk):## creacion de la clase App con tk.Tk como clase padre, de la que hereda las funciones
@@ -43,6 +45,8 @@ class App(tk.Tk):## creacion de la clase App con tk.Tk como clase padre, de la q
         ttk.Button(marco, text="Examinar…", command=lambda: self.encontrarRuta(self.ruta2)).grid(row=3, column=2, padx=(8, 0))
         
         ttk.Button(marco, text="Ejecutar", command= self.ejecutarPrograma).grid(row=4, column=0, columnspan= 3, sticky="we")
+        
+        ttk.Button(marco, text="Abrir historial", command=lambda: Hist.ventanaHistorial(self,'nada')).grid(row=5, column=1)
     
     def encontrarRuta(self, archivo):
         #ruta = filedialog.askdirectory(title="Selecciona un archivo", mustexist=True) ## carpeta
@@ -56,5 +60,4 @@ class App(tk.Tk):## creacion de la clase App con tk.Tk como clase padre, de la q
         print(f"{a} || {b}")
         print('llamado en la linea 53')
  
-
 App().mainloop()        
